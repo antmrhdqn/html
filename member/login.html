@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>COMPANIMAL</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <script src="login.js"></script>
+</head> 
+<body>
+    
+    <header>
+        <div class="miniNav">
+            <a class="heart miniNav-item" href="">
+                <img class="heart-icon" src="../common/image/heart.png">
+            </a>
+            <a class="bell miniNav-item" href="">
+                <img class="bell-icon" src="../common/image/bell.png">
+            </a>
+            <button class="myPage miniNav-item" href="">마이페이지</button>
+            <button id="logout" class="logout miniNav-item" type="button">로그아웃</button>         
+            <button id="projectRegist" class="projectRegist miniNav-item">프로젝트 등록</button>
+        </div>
+        <div class="companimal" onclick="location.href=''">Companimal</div>
+        <div class="mainNav">
+            <div class="menu-bar">
+                <a class="funding+" href="">펀딩+</a>
+                <a class="community" href="">커뮤니티</a>
+                <a class="story" href="">스토리</a>
+            </div>
+            <div class="keyword-search">
+                <input class="search-box" placeholder="키워드 검색" type="text">
+                <button type="button">
+                    <img class="keyword-search-icon" src="../common/image/search.png">
+                </button>
+            </div>
+        </div>
+        <img class="line" src="../common/image/line.png">
+    </header>
+
+    <div class="MainWeapper_contest">
+        
+        <div class="account-intro-login">
+
+            <div class="AccountContainer_container">
+
+                <h1 class="AccountContainer_title">로그인</h1>
+                
+                <form class="SignInForm_form">
+
+                    <div class="SignInForm_loginField">
+
+                        <div class="SignInForm_idField" >
+
+                            <input class="idField" maxlength="20" placeholder="   아이디 입력" type="text" >
+
+                        </div>
+                        <div class="SignInForm_passwordField">
+
+                            <input class="passwordField" maxlength="20" placeholder="   비밀번호 입력" type="password" >
+                            
+                        </div>
+
+                    </div>
+                    <button class="loginSubmitButton" type="submit">
+                        <span class="loginButtonText">로그인</span>
+                    </button>
+                    
+                    <div class="SignInForm_loginAction">
+
+                        <p class="SignInForm_forgotId">
+                            <a href="/아이디찾기 주소" data-test-id="findIdLink">아이디찾기</a>
+                        </p>
+
+                        <P class="SignInForm_separator">|</P>
+
+                        <p class="SignInForm_forgotPassword">
+                            
+                            <a href="/비밀번호찾기 주소" data-test-id="findIdLink">비밀번호찾기</a>
+                        </p >
+
+                        <p class="SignInForm_separator">|</p>
+
+                        <p class="SignInForm_regist">
+                            <a href="/회원가입 주소" data-test-id="findIdLink">회원가입</a>
+                        </p>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>

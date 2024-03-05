@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+}
+
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;    
+  width: 100%;
+}
+
+.mainContentContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+  width: 80%;
+
+}
+
+.mainContentInfoBoxContainer {
+  color: #000000; 
+  text-decoration: none;
+}
+
+.infoStringWrapper,
+.title,
+.MainContentCreaterNameWrapper {
+  color: #000000; 
+  text-decoration: none;
+}

@@ -1,0 +1,60 @@
+
+
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;    
+}
+
+.categoryWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin: auto;
+  width: 1700px;
+}
+
+.mainCategory {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 50 0px;
+
+} 
+
+.subCategory {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+.mainCategory img {
+  width: 80px;
+  height: 80px;
+}
+
+.subCategory img {
+  width: 60px;
+  height: 60px;
+}
+
+.filter{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  
+}
+
+.mainContentContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+  width: 80%;
+
+}
+
